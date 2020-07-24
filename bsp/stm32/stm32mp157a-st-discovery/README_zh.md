@@ -85,7 +85,7 @@ STM32MP157A-DK1 是 ST 推出的一款基于双 Cortex-A7  + Cortex-M4 内核的
 
 #### 运行结果
 
-下载程序成功之后，系统会自动运行，观察开发板上 LED 的运行效果，蓝色 LD8 会周期性闪烁，终端会周期性输出 ”Hello RT-Thread!“
+下载程序成功之后，系统会自动运行，观察开发板上 LED 的运行效果，蓝色 LD8 会周期性闪烁。
 
 连接开发板对应串口到 PC , 在终端工具里打开相应的串口（115200-8-1-N），可以看到 RT-Thread 的输出信息:
 
@@ -97,7 +97,6 @@ STM32MP157A-DK1 是 ST 推出的一款基于双 Cortex-A7  + Cortex-M4 内核的
  / | \     3.1.1 build Nov 19 2018
  2006 - 2018 Copyright by rt-thread team
 msh >
-Hello RT-Thread!
 ```
 #### 驱动使用
 ##### 1. WWDG

@@ -73,7 +73,7 @@ Double-click the project.eww file, to open the IAR project, compile and download
 
 #### Running Results
 
-After the program is successfully downloaded, the system runs automatically. Observe the running results of the LED on the development board, the blue LD8 will flash periodically, and the terminal will periodically output"Hello RT-Thread!"
+After the program is successfully downloaded, the system runs automatically. Observe the running results of the LED on the development board, the blue LD8 will flash periodically.
 
 Connect the serial port of the board to PC, communicate with it via a serial terminal tool (115200-8-1-N). Restart the board and the startup information of RT-Thread will be observed:
 
@@ -82,7 +82,7 @@ Connect the serial port of the board to PC, communicate with it via a serial ter
 - RT -     Thread Operating System
  / | \     3.1.1 build Nov 19 2018
  2006 - 2018 Copyright by rt-thread team
-msh > Hello RT-Thread!
+msh > 
 ```
 
 #### Drivers
